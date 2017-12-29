@@ -27,6 +27,6 @@ server = smtplib.SMTP_SSL("smtp.gmail.com",465)
 # server.ehlo()
 # server.starttls()
 
-server.login("girishprasana@gmail.com", "blackhat89")
+server.login("xyza@gmail.com", "pass")
  
 server.sendmail(msg['From'], emaillist , msg.as_string())
