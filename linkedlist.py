@@ -78,7 +78,7 @@ class LinkedList(object):
 
 
 linkedlist = LinkedList()
-
+print linkedlist
 linkedlist.insertStart(12)
 linkedlist.insertStart(122)
 linkedlist.insertStart(2)
